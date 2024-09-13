@@ -1,0 +1,215 @@
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(207, 238, 249);
+}
+
+img{
+    width: 50px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(32, 61, 108);
+    padding: 8px;
+}
+
+h2 {
+    color: rgb(20, 58, 118);
+} 
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(123, 167, 195);
+}
+
+.hero{
+    font-size: large;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background-image: url("https://www.sageworld.com/blog/wp-content/uploads/2023/03/The-Science-Behind-the-Plushie_v1-700x263.jpg");
+}
+
+.header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.831);
+    background-color: rgba(255, 255, 255, 0.525);
+    border-radius: 20px;
+}
+
+.section_box{
+    display: flex;
+    justify-content: center;
+}
+
+.section_header{
+    background-color: rgba(137, 137, 112, 0.747);
+    width: max-content;
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+}
+
+.links2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    gap: 10px;
+}
+
+.left{
+    display: flex;
+    padding-left: 30px;
+    gap: 10px;
+}
+
+.left2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    gap:0px;
+}
+
+.right{
+    display: flex;
+    padding-right: 30px;
+} 
+
+.right2{
+    display: flex;
+    padding-right: 20px;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    flex-grow: 1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+  }
+
+.footer {
+    height: auto;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .product_card{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+  .product_img{
+    width: 150px;
+    height: 150px;
+}
+
+.star{
+    width: 20px;
+    height: 20px;
+}
+
+.product_review{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.review_text{
+    margin: 0;
+    padding: 0;
+}
+
+.product_btn{
+    font: system-ui;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 8px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.main_branch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin: 15px;
+}
+
+.main_img{
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+
+.info_card{
+    display: flex;
+    flex-grow: 1;
+    align-self: flex-start;
+    justify-self: center;
+    flex-direction: column;
+    margin: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.product_info{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.right_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
